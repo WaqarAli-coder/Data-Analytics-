@@ -1,0 +1,22 @@
+GitHub ( Distributive Version Control System )
+
+1) Goto git-scm.com and download and install git
+2)Right Click to your project folder and click on git bash here
+3) To initialize with git and making folder to repository use:	$git init
+4) To check current status of git use:
+	$git status
+5) To convert file from unstage to stage use:
+	$git add -A
+6) Configure yourself on git globally using:
+	$git config --global user.name "Your Name"
+	$git config --global user.email "Your Email"
+	Note: Separately execute command
+7) Simply save your file using:
+	$git commit -m "Message"
+8) Goto GitHub.com and Signup
+9) Create repo on GitHub.com
+10) Copy repo link from GitHub.com
+11) To connect with remote repo use:
+	$git remote add origin <Link>
+12) To push your code use:
+	$git push -u origin master/main
